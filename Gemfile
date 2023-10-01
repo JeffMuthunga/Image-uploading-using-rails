@@ -48,3 +48,5 @@ end
 
 
 gem "jsonapi-serializer", "~> 2.2"
+
+gem 'byebug', '~> 11.1', '>= 11.1.3'

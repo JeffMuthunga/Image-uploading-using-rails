@@ -2,6 +2,7 @@ import './App.css';
 import { createContext, useState } from 'react';
 import FileForm from './common/FileForm';
 import LatestImage from './common/LatestImage';
+import PropertyImage from './common/PropertyImage';
 
 
 export const AppContext = createContext(null)
@@ -14,6 +15,8 @@ function App() {
       <div className="App">
         <FileForm/>
         <LatestImage/>
+
+      <PropertyImage/>
       </div>
     </AppContext.Provider>
    

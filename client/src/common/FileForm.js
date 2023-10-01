@@ -10,7 +10,7 @@ function FileForm() {
         e.preventDefault()
         const data = new FormData()
 
-        data.append("post[title", e.target.title.value)
+        data.append("post[title]", e.target.title.value)
         data.append("post[image]", e.target.image.files[0])
 
         submitToApi(data)
