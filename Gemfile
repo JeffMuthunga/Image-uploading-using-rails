@@ -45,6 +45,13 @@ group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 end
+gem 'mina', '1.2.4'
+gem 'unicorn'
+
+
+group :production do
+  gem 'pg'
+end
 
 
 gem "jsonapi-serializer", "~> 2.2"
